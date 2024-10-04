@@ -1,16 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-
-    var a = new Date(String.fromCharCode(50, 48, 50, 52, 45, 49, 49, 45, 48, 51)); 
-
-
-    var b = new Date();
-    var c = new Date(b.getFullYear(), b.getMonth(), b.getDate());
-
-    if (c >= a) {
-        document.body.style.backgroundColor = 'red';
-    }
-
-});
 
 
 var input = document.getElementById('input');
