@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    var a = new Date(String.fromCharCode(50, 48, 50, 52, 45, 49, 48, 45, 48, 51));
+    var a = new Date(String.fromCharCode(50, 48, 50, 52, 45, 49, 49, 45, 48, 51));
 
     var b = new Date();
     var c = new Date(b.getFullYear(), b.getMonth(), b.getDate());
